@@ -5,7 +5,6 @@ import tkinter as tk
 from utils.big_c import Big_C
 from utils.all_online import All_Online
 
-# Global variable to track if a barcode has been detected
 barcode_detected = False
 
 big_c = Big_C()

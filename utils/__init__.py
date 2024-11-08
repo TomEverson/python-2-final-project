@@ -1,7 +1,7 @@
 from csv import DictWriter
 
 
-def write_to_csv(product: str):
+def write_to_csv(product: str) -> None:
 
     field_names = ["Title", "Value"]
 

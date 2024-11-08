@@ -11,7 +11,6 @@ class Big_C:
         self.headers = {
             'Accept-Language': 'en-US,en;q=0.9'
         }
-        pass
 
     def get_price_and_product_title_from_big_c(self, product_code: str):
         url = self.url + product_code
